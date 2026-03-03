@@ -105,21 +105,30 @@ $ rabbitmqadmin get queue='hello'
 
 `Приведите ответ в свободной форме........`
 
-1. `Заполните здесь этапы выполнения, если требуется ....`
-2. `Заполните здесь этапы выполнения, если требуется ....`
-3. `Заполните здесь этапы выполнения, если требуется ....`
-4. `Заполните здесь этапы выполнения, если требуется ....`
-5. `Заполните здесь этапы выполнения, если требуется ....`
-6. 
+1. `Создадим кластер Rabbitmq из трех нод с помощью Docker-compose и создадим политику ha-all на все очереди`
+<img width="1307" height="892" alt="Снимок экрана 2026-03-02 161846" src="https://github.com/user-attachments/assets/aef5959b-9f02-4668-ac71-01ede6c3dd20" />
+
+2. `Проверим статусы 2 нодов кластера.`
+   ```
+    rabbitmqctl cluster_status
+   ```
+     <img width="1920" height="1140" alt="Снимок экрана 2026-03-03 090717" src="https://github.com/user-attachments/assets/c3f466f7-1a2d-4f02-8b4d-eead744f6be5" />
+<img width="1664" height="376" alt="Снимок экрана 2026-03-03 091901" src="https://github.com/user-attachments/assets/1ce61dae-9bc4-419f-90dd-5e528e5aa874" />
+
+<img width="1659" height="1004" alt="Снимок экрана 2026-03-03 091102" src="https://github.com/user-attachments/assets/853fa93f-62be-4cca-9e40-a937bace46d7" />
+<img width="1668" height="353" alt="Снимок экрана 2026-03-03 091929" src="https://github.com/user-attachments/assets/2bd8fd7b-54d9-4f5e-b869-9dcd69ed18a9" />
+
+3. `C помощью утилиты rabbitqadmin обратимся к очереди hello с разных нод`
 
 ```
-Поле для вставки кода...
-....
-....
-....
-....
+rabbitmqadmin -u test -p test get queue='hello'
 ```
+<img width="1195" height="136" alt="Снимок экрана 2026-03-03 093036" src="https://github.com/user-attachments/assets/9b8db016-9de5-4c19-93b4-53dd5aab9ddc" />
+<img width="1669" height="162" alt="Снимок экрана 2026-03-03 093601" src="https://github.com/user-attachments/assets/25b3e790-ae29-462a-9ba6-9a07fcfbf4da" />
 
-`При необходимости прикрепитe сюда скриншоты
-![Название скриншота](ссылка на скриншот)`
+4. `Отключаем одну из нод`
+   
+<img width="1311" height="907" alt="Снимок экрана 2026-03-03 100905" src="https://github.com/user-attachments/assets/561cb9d4-aea0-44a5-9b15-4485762bccf0" />
+<img width="1661" height="516" alt="Снимок экрана 2026-03-03 101218" src="https://github.com/user-attachments/assets/c9010564-0f14-476f-8217-9e64a9f4a863" />
+<img width="1920" height="1149" alt="Снимок экрана 2026-03-03 101603" src="https://github.com/user-attachments/assets/221c63ae-f257-4a34-b3de-eedebd412229" />
 
