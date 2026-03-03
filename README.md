@@ -112,7 +112,7 @@ $ rabbitmqadmin get queue='hello'
    ```
     rabbitmqctl cluster_status
    ```
-     <img width="1920" height="1140" alt="Снимок экрана 2026-03-03 090717" src="https://github.com/user-attachments/assets/c3f466f7-1a2d-4f02-8b4d-eead744f6be5" />
+<img width="1659" height="1004" alt="Снимок экрана 2026-03-03 090729" src="https://github.com/user-attachments/assets/4f6625cc-227b-4ac8-a0e1-11f613a1185a" />
 <img width="1664" height="376" alt="Снимок экрана 2026-03-03 091901" src="https://github.com/user-attachments/assets/1ce61dae-9bc4-419f-90dd-5e528e5aa874" />
 
 <img width="1659" height="1004" alt="Снимок экрана 2026-03-03 091102" src="https://github.com/user-attachments/assets/853fa93f-62be-4cca-9e40-a937bace46d7" />
