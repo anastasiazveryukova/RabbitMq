@@ -63,7 +63,7 @@ $ pip install pika
    ```
 4. `Запустим скрипт несколько раз`
      ```
-  python producer.py
+     python producer.py
      ```
 
 <img width="1666" height="951" alt="Снимок экрана 2026-03-02 130155" src="https://github.com/user-attachments/assets/f5448f7d-299a-4920-9cd4-6dcd93894059" />
